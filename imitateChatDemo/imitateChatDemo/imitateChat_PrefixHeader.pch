@@ -1,0 +1,42 @@
+//
+//  wuhanqx_PrefixHeader.pch
+//  Lesogo_wuhanQX_public_iPhone_V3
+//
+//  Created by Lesogo_A1 on 2017/4/12.
+//  Copyright © 2017年 Xiangshengjun. All rights reserved.
+//
+
+#ifndef wuhanqx_PrefixHeader_pch
+#define wuhanqx_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define LCDH  [[UIScreen mainScreen] bounds].size.height
+#define LCDW  [[UIScreen mainScreen] bounds].size.width
+#define TitleHeight             64
+#define tabHeight               50
+
+
+
+#define RGBACOLOR(r, g, b, a)  [UIColor colorWithRed:(r/255.0) green:(g/255.0) blue:(b/255.0) alpha:a]
+
+#define LIMTCAHRSTR @"ABCDEFGHIJKLMNOPQRSTUVWSYZabcdefghijklmnopqrstuvwxyz1234567890"
+
+
+//文件目录
+#define KDocumentsPath      [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]
+#define KTmpPath            [NSHomeDirectory() stringByAppendingPathComponent:@"tmp"]
+
+
+#import "UIViewExt.h"
+#import "Tool.h"
+#import "SVProgressHUD.h"
+
+
+#endif /* wuhanqx_PrefixHeader_pch */
+
+
+
+
